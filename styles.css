@@ -1,0 +1,158 @@
+
+#Features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-text{
+    max-width: 720px;
+}
+.box-wrapper
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 80px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 4px;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    max-height: 400px;
+
+}
+#containerBox{
+    display: flex;
+}
+.container-icon img{
+    max-width: 60px;
+    max-height: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    
+}
+.btn{
+    border: 0;
+    margin: 15px, 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.box h1{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 308px;
+    margin-top: -4px;
+    font-weight: 700;
+
+}
+#HowItWorks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+.container
+{
+    width:80%;
+    margin:0px auto;
+}
+    header
+    {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:20px 10px;
+    }
+    #nav-bar ul
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    #nav-bar ul li
+     {
+         margin-left: 70px;
+     }
+     #nav-bar ul li a{
+         color:black;
+     }
+
+   footer
+   {
+       background-color: #eee;
+       margin:0px 200px;
+       margin-top:30px;
+       display:flex;
+       flex-direction: column;
+       align-items: flex-end;
+       font-size: 0.9em;
+       padding-top:20px;
+       
+   }
+   .footer ul
+
+{
+    margin-left:30px;
+    margin-right:20px;
+    display: flex;
+    
+}
+.footer ul li
+{
+    margin-left:30px;
+}
+footer .footer-copyright
+{
+    font-size:0.7em;
+    
+    padding:10px;
+}
+.footer ul li a
+{
+    color:black;
+    font-size:0.9em;
+
+}
+.container-subscriber
+{
+    text-align:center;
+    margin:5px auto;
+    font-size:10px;
+}
+.container-subscriber input,.container-subscriber h1
+{
+margin:7px 0px;
+
+}
+.container-subscriber #submit
+{
+    background-color: yellow;
+    padding:5px;
+    font-weight:bolder;
+    width:120px;border:none;
+    color: blue;
+}
